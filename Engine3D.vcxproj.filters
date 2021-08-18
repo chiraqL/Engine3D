@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Data">
+      <UniqueIdentifier>{c66d4d3a-f5aa-4fdc-9fb1-b587b48e3e84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Data\Model">
+      <UniqueIdentifier>{d867df3f-d5dd-4848-9433-10ecb7c66eb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Data\Math">
+      <UniqueIdentifier>{cd8e24d4-5b4e-45aa-b15f-1122c2f817d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ext">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Ext\Profiler">
+      <UniqueIdentifier>{d30db2b2-6d2e-44ba-93c2-b525b2ebf9de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ext\stb image">
+      <UniqueIdentifier>{4aa2aa5c-b3b9-44d4-9a5e-a6e5ddbf3cff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ext\ImGUI">
+      <UniqueIdentifier>{10c036bd-5924-4df5-b872-9ebef91c45d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ext\ImGUI\source">
+      <UniqueIdentifier>{867fde92-b273-4cc6-881f-e2fab0003bb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Data\Math\dep">
+      <UniqueIdentifier>{b99626cb-6e76-4c7e-bbfc-4eda0907b92d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Data\Math\ext">
+      <UniqueIdentifier>{2122b4b4-9e62-4f7d-81fa-30f5ebe9b9ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Display.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Timer.h">
+      <Filter>Ext\Profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mesh.h">
+      <Filter>Header Files\Data\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Light.h">
+      <Filter>Header Files\Data\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Color.h">
+      <Filter>Header Files\Data\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Model.h">
+      <Filter>Header Files\Data\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics.h">
+      <Filter>Ext</Filter>
+    </ClInclude>
+    <ClInclude Include="src\math.h">
+      <Filter>Header Files\Data\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Renderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controls.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Clock.h">
+      <Filter>Ext\Profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Camera.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\glDraw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Global.h">
+      <Filter>Ext</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Panel.h">
+      <Filter>Ext\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\stb_image.h">
+      <Filter>Ext\stb image</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Texture.h">
+      <Filter>Header Files\Data\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Triangle.h">
+      <Filter>Header Files\Data\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ZBuffer.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Line.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Vector.h">
+      <Filter>Header Files\Data\Math\dep</Filter>
+    </ClInclude>
+    <ClInclude Include="src\math\linear_algebra_mat.h">
+      <Filter>Header Files\Data\Math\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="src\math\arithmetic.h">
+      <Filter>Header Files\Data\Math\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="src\math\linear_algebra_vec.h">
+      <Filter>Header Files\Data\Math\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="src\math\linear_algebra_tri.h">
+      <Filter>Header Files\Data\Math\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="src\math\define.h">
+      <Filter>Header Files\Data\Math\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\imconfig.h">
+      <Filter>Ext\ImGUI\source</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\imgui.h">
+      <Filter>Ext\ImGUI\source</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\imgui_impl_glfw.h">
+      <Filter>Ext\ImGUI\source</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\imgui_impl_opengl3.h">
+      <Filter>Ext\ImGUI\source</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\imgui_impl_opengl3_loader.h">
+      <Filter>Ext\ImGUI\source</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\imgui_internal.h">
+      <Filter>Ext\ImGUI\source</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\imgui_widgets.h">
+      <Filter>Ext\ImGUI\source</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\imstb_rectpack.h">
+      <Filter>Ext\ImGUI\source</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\imstb_textedit.h">
+      <Filter>Ext\ImGUI\source</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\imstb_truetype.h">
+      <Filter>Ext\ImGUI\source</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Display.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Global.cpp">
+      <Filter>Ext</Filter>
+    </ClCompile>
+    <ClCompile Include="src\glad.c">
+      <Filter>Ext</Filter>
+    </ClCompile>
+    <ClCompile Include="src\glDraw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stb_image.cpp">
+      <Filter>Ext\stb image</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Matrix.h">
+      <Filter>Header Files\Data\Math\dep</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui\imgui_impl_opengl3.cpp">
+      <Filter>Ext\ImGUI\source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui\imgui_impl_glfw.cpp">
+      <Filter>Ext\ImGUI\source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui\imgui_draw.cpp">
+      <Filter>Ext\ImGUI\source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui\imgui.cpp">
+      <Filter>Ext\ImGUI\source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui\imgui_widgets.cpp">
+      <Filter>Ext\ImGUI\source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui\imgui_tables.cpp">
+      <Filter>Ext\ImGUI\source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Vertex.cpp">
+      <Filter>Header Files\Data\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Vector.cpp">
+      <Filter>Header Files\Data\Math\dep</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\Vertex.h">
+      <Filter>Header Files\Data\Model</Filter>
+    </None>
+    <None Include="src\sh\point.shader" />
+    <None Include="imgui.ini">
+      <Filter>Ext\ImGUI\source</Filter>
+    </None>
+  </ItemGroup>
+</Project>
